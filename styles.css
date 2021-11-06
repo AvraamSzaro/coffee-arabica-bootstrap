@@ -1,0 +1,71 @@
+body {
+  font-family: "PT Serif", serif;
+  background: #92847c;
+  margin: 0;
+}
+
+.blurb h2 {
+  color: #442817;
+  font-weight: 100;
+}
+.blurb p {
+  color: #5f3141;
+  /* text-align: justify; */
+}
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+#mainNavbar .nav-link {
+  color: #dfd7d7;
+}
+#mainNavbar .nav-link:hover {
+  color: #442817;
+}
+
+#mainNavbar .navbar-brand {
+  color: #442817;
+  font-size: inherit;
+}
+
+#headingGroup span {
+  color: #442817;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 3.3rem;
+}
+
+.navbar.scrolled {
+  background: #88776e;
+  transition: background 500ms;
+}
+.footer {
+  height: auto;
+  color: #dfd7d7;
+  font-size: 1.6rem;
+  background: #88776e;
+  padding: 20px 0;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100px;
+    font-size: 2.6rem;
+  }
+  .footer {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    font-size: 1rem;
+  }
+}
